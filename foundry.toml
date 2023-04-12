@@ -8,6 +8,13 @@ gas_reports = ["*"]
 optimizer = true
 optimizer_runs = 20_000
 
+[profile.0_6_x]
+src = 'src-0_6_x'
+out = 'out'
+optimizer = true
+optimizer_runs = 200
+solc_version = '0.6.12'
+
 [profile.ci]
 verbosity = 4
 

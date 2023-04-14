@@ -1,4 +1,9 @@
 
+# Legacy Deployed Code
+src-0_6_x/
+contracts/SeedifyFund/SeedifyFundBUSD.sol
+contracts/SeedifyFund/SeedifyFundBUSDWithMerkle.sol
+
 # Foundry
 cache/
 out/

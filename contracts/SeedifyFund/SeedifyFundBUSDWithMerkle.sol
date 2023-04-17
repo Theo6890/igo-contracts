@@ -278,7 +278,7 @@ contract SeedifyLaunchpad is Ownable, Pausable {
         uint256 _noOfTiers,
         address _projectOwner,
         address _tokenAddress,
-        uint256 _totalUsers,
+        // uint256 _totalUsers,
         uint8 _phaseNo
     ) {
         name = _name;
@@ -297,8 +297,8 @@ contract SeedifyLaunchpad is Ownable, Pausable {
         require(_tokenAddress != address(0), "Zero token address");
         tokenAddress = _tokenAddress;
         ERC20Interface = IERC20(tokenAddress);
-        require(_totalUsers > 0, "Zero users");
-        totalUsers = _totalUsers;
+        // require(_totalUsers > 0, "Zero users");
+        // totalUsers = _totalUsers;
         phaseNo = _phaseNo;
     }
     function updateMaxCap(uint256 _maxCap) public onlyOwner {

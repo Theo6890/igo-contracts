@@ -1,0 +1,26 @@
+
+# Legacy Deployed Code
+src-0_6_x/
+contracts/SeedifyFund/SeedifyFundBUSD.sol
+contracts/SeedifyFund/SeedifyFundBUSDWithMerkle.sol
+
+# Foundry
+cache/
+out/
+broadcast/
+
+#JS
+node_modules
+.next
+build
+coverage
+
+# Import
+lib
+
+#Hardhat files
+cache_hardhat/
+artifacts/
+
+#Hardhat plugin files
+typechain-types/

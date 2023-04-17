@@ -6,7 +6,7 @@ import {Merkle} from "murky/src/Merkle.sol";
 
 import "forge-std/Test.sol";
 
-import {SeedifyLaunchpad} from "../../contracts/SeedifyFund/SeedifyFundBUSDWithMerkle.sol";
+import {SeedifyLaunchpad} from "../../../contracts/SeedifyFund/SeedifyFundBUSDWithMerkle.sol";
 
 contract SeedifyLaunchpad_workaround is SeedifyLaunchpad {
     constructor(

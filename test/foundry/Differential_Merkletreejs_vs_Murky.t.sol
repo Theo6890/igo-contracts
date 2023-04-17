@@ -55,7 +55,7 @@ contract Differential_Merkletreejs_vs_Murky is Test {
 
         // Calculate root using Murky
         bytes32 murkyGeneratedRoot = m.getRoot(leaves);
-        
+
         emit log_named_bytes32("jsGeneratedRoot", jsGeneratedRoot);
         emit log_named_bytes32("murkyGeneratedRoot", murkyGeneratedRoot);
         // assertEq(murkyGeneratedRoot, jsGeneratedRoot);

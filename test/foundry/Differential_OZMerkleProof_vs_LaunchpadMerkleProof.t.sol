@@ -17,7 +17,7 @@ contract SeedifyLaunchpad_workaround is SeedifyLaunchpad {
         uint256 _noOfTiers,
         address _owner,
         address _token,
-        uint256 _totalUsers,
+        // uint256 _totalUsers,
         uint8 _phaseNo
     )
         SeedifyLaunchpad(
@@ -28,7 +28,7 @@ contract SeedifyLaunchpad_workaround is SeedifyLaunchpad {
             _noOfTiers,
             _owner,
             _token,
-            _totalUsers,
+            //  _totalUsers,
             _phaseNo
         )
     {}
@@ -72,11 +72,15 @@ contract Differential_OZMerkleProof_vs_LaunchpadMerkleProof is Test {
             noOfTiers,
             owner,
             token,
-            totalUsers,
+            // totalUsers,
             phaseNo
         );
     }
 
+    /**
+     * @dev ensure there are no differences between the copy and paste from OZ
+     *      to custom contract
+     */
     function test_OpenZeppelinProver_SeedifyLaunchpadProver(
         bytes32[] memory _data,
         uint256 node
